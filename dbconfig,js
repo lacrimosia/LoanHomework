@@ -1,6 +1,0 @@
-module.exports = {
-  user          : "SPRAYER",
-  password      : process.env.NODE_ORACLEDB_PASSWORD,
-  connectString : "acadoradbprd01.dpu.depaul.edu",
-  sid			: "ACADPRD0"
-};
