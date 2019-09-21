@@ -1,0 +1,22 @@
+{
+  "name": "loanproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacrimosia/LoanHomework.git"
+  },
+  "author": "Shatilla Prayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacrimosia/LoanHomework/issues"
+  },
+  "homepage": "https://github.com/lacrimosia/LoanHomework#readme",
+  "devDependencies": {
+    "oracledb": "^4.0.1"
+  }
+}
