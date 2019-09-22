@@ -15,7 +15,7 @@ var read = readline.createInterface({
 readFile();
 
 function readFile() {
-    let sqlTableString = "DROP TABLE " + tableName + ";\n\n CREATE TABLE Loan(\nAmount VARCHAR2(100) NOT NULL,\n Loan_Date VARCHAR2(100), \n Loan_Title VARCHAR2(1000) NOT NULL,\n Risk_Score VARCHAR2(30) NOT NULL, \n Debt_To_Income VARCHAR2(30) NOT NULL,\n Zipcode VARCHAR2(5) NOT NULL,\n State VARCHAR2(2) NOT NULL,\nEmployment VARCHAR2(1) NOT NULL,\n Policy_Code VARCHAR2(1)\n);\n\n";
+    let sqlTableString = "/* Shatilla Prayer - Q2*/ \n\n\n DROP TABLE " + tableName + ";\n\n CREATE TABLE Loan(\nAmount VARCHAR2(100) NOT NULL,\n Loan_Date VARCHAR2(100), \n Loan_Title VARCHAR2(1000) NOT NULL,\n Risk_Score VARCHAR2(30) NOT NULL, \n Debt_To_Income VARCHAR2(30) NOT NULL,\n Zipcode VARCHAR2(5) NOT NULL,\n State VARCHAR2(2) NOT NULL,\nEmployment VARCHAR2(1) NOT NULL,\n Policy_Code VARCHAR2(1)\n);\n\n";
 
     fs.writeFile(sqlFile, sqlTableString, (err) => {
         if (err)

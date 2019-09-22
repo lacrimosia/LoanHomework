@@ -1,4 +1,7 @@
-DROP TABLE Loan;
+/* Shatilla Prayer - Q2*/ 
+
+
+ DROP TABLE Loan;
 
  CREATE TABLE Loan(
 Amount VARCHAR2(100) NOT NULL,
@@ -16,9 +19,9 @@ INSERT INTO Loan VALUES('1000', '5262007', 'Wedding Covered but No Honeymoon', '
 
 INSERT INTO Loan VALUES('1000', '5262007', 'Consolidating Debt', '703', '10', '1027', 'MA', '1', '0');
 
-INSERT INTO Loan VALUES('11000', '5272007', 'Want to consolidate my debt', '715', '10', '21227', 'MD', '1', '0');
-
 INSERT INTO Loan VALUES('6000', '5272007', 'waksman', '698', '3864', '1727', 'MA', '1', '0');
+
+INSERT INTO Loan VALUES('11000', '5272007', 'Want to consolidate my debt', '715', '10', '21227', 'MD', '1', '0');
 
 INSERT INTO Loan VALUES('1500', '5272007', 'mdrigo', '509', '943', '20927', 'MD', '1', '0');
 
@@ -40,41 +43,41 @@ INSERT INTO Loan VALUES('3000', '5282007', 'bmoore5110', '688', '10', '19027', '
 
 INSERT INTO Loan VALUES('1500', '5282007', 'MHarkins', '704', '10', '18927', 'PA', '3', '0');
 
-INSERT INTO Loan VALUES('8000', '5282007', 'Recent College Grad Wants to Pay Off CCs', '708', '10', '37427', 'TN', '1', '0');
-
 INSERT INTO Loan VALUES('1000', '5282007', 'Moving', '694', '10', '35427', 'AL', '1', '0');
 
+INSERT INTO Loan VALUES('8000', '5282007', 'Recent College Grad Wants to Pay Off CCs', '708', '10', '37427', 'TN', '1', '0');
+
 INSERT INTO Loan VALUES('12000', '5292007', 'FoundersCafecom', '685', '10', '77027', 'TX', '3', '0');
+
+INSERT INTO Loan VALUES('1000', '5292007', 'UChicago2004', '698', '10', '20727', 'MD', '3', '0');
+
+INSERT INTO Loan VALUES('15000', '5292007', 'Cancer is Killing My Credit', '680', '10', '43227', 'OH', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '5292007', '2006-2007 College Debt Loan', '680', '10', '1127', 'MA', '1', '0');
 
 INSERT INTO Loan VALUES('15000', '5292007', 'twbmc', '712', '10', '77327', 'TX', '1', '0');
 
-INSERT INTO Loan VALUES('1000', '5292007', 'UChicago2004', '698', '10', '20727', 'MD', '3', '0');
-
 INSERT INTO Loan VALUES('5000', '5292007', 'Bills and Vacation', '704', '10', '21227', 'MD', '1', '0');
 
 INSERT INTO Loan VALUES('4950', '5292007', 'Vehicle PurchaseUsed Auto', '693', '10', '22027', 'VA', '2', '0');
-
-INSERT INTO Loan VALUES('15000', '5292007', 'Cancer is Killing My Credit', '680', '10', '43227', 'OH', '1', '0');
-
-INSERT INTO Loan VALUES('25000', '5292007', 'Phuocpnn', '686', '10', '63127', 'MO', '1', '0');
 
 INSERT INTO Loan VALUES('6100', '5292007', 'thejanman', '684', '2469', '45327', 'OH', '2', '0');
 
 INSERT INTO Loan VALUES('12000', '5292007', 'Finish Off College', '704', '10', '46227', 'IN', '2', '0');
 
+INSERT INTO Loan VALUES('25000', '5292007', 'Phuocpnn', '686', '10', '63127', 'MO', '1', '0');
+
 INSERT INTO Loan VALUES('15000', '5292007', 'Established borrower consolodating debt', '698', '1556', '55927', 'MN', '1', '0');
+
+INSERT INTO Loan VALUES('5000', '5292007', 'mainmanandy', '719', '10', '45727', 'OH', '1', '0');
 
 INSERT INTO Loan VALUES('10000', '5302007', 'Jaguar10301', '602', '225', '22127', 'VA', '1', '0');
 
-INSERT INTO Loan VALUES('5000', '5292007', 'mainmanandy', '719', '10', '45727', 'OH', '1', '0');
+INSERT INTO Loan VALUES('10000', '5302007', 'rpinho78', '475', '2177', '6127', 'CT', '1', '0');
 
 INSERT INTO Loan VALUES('1000', '5302007', 'ashtru', '695', '0', '44327', 'OH', '1', '0');
 
 INSERT INTO Loan VALUES('4000', '5302007', 'sparks', '671', '368', '63027', 'MO', '1', '0');
-
-INSERT INTO Loan VALUES('10000', '5302007', 'rpinho78', '475', '2177', '6127', 'CT', '1', '0');
 
 INSERT INTO Loan VALUES('7000', '5302007', 'big fat lender', '638', '1773', '94127', 'CA', '1', '0');
 
@@ -88,23 +91,23 @@ INSERT INTO Loan VALUES('2000', '5302007', 'SGearhart1381', '579', '3264', '6582
 
 INSERT INTO Loan VALUES('15000', '5302007', '2dozen', '474', '155', '45327', 'OH', '4', '0');
 
+INSERT INTO Loan VALUES('6000', '5302007', 'Good Heart Bad Credit', '463', '1234', '95327', 'CA', '1', '0');
+
+INSERT INTO Loan VALUES('2500', '5312007', 'mbcoon', '593', '1843', '79027', 'TX', '1', '0');
+
 INSERT INTO Loan VALUES('12500', '5312007', 'boardwalk', '578', '3182', '77527', 'TX', '9', '0');
 
 INSERT INTO Loan VALUES('3000', '5312007', 'danthe83', '536', '0', '55127', 'MN', '1', '0');
 
-INSERT INTO Loan VALUES('6000', '5302007', 'Good Heart Bad Credit', '463', '1234', '95327', 'CA', '1', '0');
-
 INSERT INTO Loan VALUES('7500', '5312007', 'maryk2001', '524', '6147', '31627', 'GA', '5', '0');
-
-INSERT INTO Loan VALUES('2500', '5312007', 'mbcoon', '593', '1843', '79027', 'TX', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '5312007', 'ppatti113', '520', '893', '2427', 'MA', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '5312007', 'spidermonkey07', '0', '6', '44827', 'OH', '1', '0');
 
-INSERT INTO Loan VALUES('1000', '5312007', 'jprice1542', '0', '461', '37327', 'TN', '1', '0');
-
 INSERT INTO Loan VALUES('4000', '5312007', 'brock1jd', '658', '438', '48027', 'MN', '1', '0');
+
+INSERT INTO Loan VALUES('1000', '5312007', 'jprice1542', '0', '461', '37327', 'TN', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '5312007', 'mashowar', '492', '1573', '47427', 'IN', '4', '0');
 
@@ -164,23 +167,23 @@ INSERT INTO Loan VALUES('4500', '622007', 'QuisyFBaby', '599', '168', '21227', '
 
 INSERT INTO Loan VALUES('2000', '632007', 'thesassaman', '650', '0', '98027', 'WA', '1', '0');
 
-INSERT INTO Loan VALUES('3500', '632007', 'manx203', '0', '0', '15127', 'PA', '1', '0');
-
 INSERT INTO Loan VALUES('10000', '632007', 'regan117', '607', '231', '18227', 'PA', '1', '0');
 
-INSERT INTO Loan VALUES('1500', '632007', 'matt12amazing', '504', '2745', '66027', 'KS', '1', '0');
-
-INSERT INTO Loan VALUES('11000', '632007', 'Consolidate Prosper', '758', '373', '97227', 'OR', '1', '0');
+INSERT INTO Loan VALUES('3500', '632007', 'manx203', '0', '0', '15127', 'PA', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '632007', 'eswist', '419', '348', '77327', 'TX', '1', '0');
 
-INSERT INTO Loan VALUES('1000', '642007', 'Im trying to repair my credit by paying off some old debts', '530', '851', '72227', 'AR', '1', '0');
+INSERT INTO Loan VALUES('11000', '632007', 'Consolidate Prosper', '758', '373', '97227', 'OR', '1', '0');
 
-INSERT INTO Loan VALUES('25000', '642007', 'Annieb6283', '606', '49', '19127', 'PA', '1', '0');
+INSERT INTO Loan VALUES('1500', '632007', 'matt12amazing', '504', '2745', '66027', 'KS', '1', '0');
 
 INSERT INTO Loan VALUES('1500', '642007', 'dEs', '711', '588', '30327', 'GA', '1', '0');
 
+INSERT INTO Loan VALUES('1000', '642007', 'Im trying to repair my credit by paying off some old debts', '530', '851', '72227', 'AR', '1', '0');
+
 INSERT INTO Loan VALUES('7000', '642007', 'jd2427', '473', '2396', '30027', 'GA', '1', '0');
+
+INSERT INTO Loan VALUES('25000', '642007', 'Annieb6283', '606', '49', '19127', 'PA', '1', '0');
 
 INSERT INTO Loan VALUES('10000', '642007', 'LenaPresley', '502', '0', '28227', 'NC', '1', '0');
 
@@ -222,29 +225,29 @@ INSERT INTO Loan VALUES('3000', '662007', 'Keith24601', '612', '672', '8127', 'N
 
 INSERT INTO Loan VALUES('2000', '662007', 'nicole38', '656', '551', '21227', 'MD', '1', '0');
 
-INSERT INTO Loan VALUES('10000', '662007', 'demarishargett', '461', '1476', '28327', 'NC', '3', '0');
+INSERT INTO Loan VALUES('5000', '662007', 'Butterfly', '528', '184', '23627', 'VA', '2', '0');
+
+INSERT INTO Loan VALUES('2000', '662007', 'speedy079', '558', '1085', '8527', 'NJ', '1', '0');
 
 INSERT INTO Loan VALUES('6700', '662007', 'LoveLearn', '522', '417', '30227', 'GA', '2', '0');
+
+INSERT INTO Loan VALUES('10000', '662007', 'demarishargett', '461', '1476', '28327', 'NC', '3', '0');
 
 INSERT INTO Loan VALUES('20000', '662007', 'Back To School', '690', '04', '7927', 'NJ', '1', '0');
 
 INSERT INTO Loan VALUES('3400', '662007', 'scooterodell', '559', '2436', '14527', 'NY', '9', '0');
 
-INSERT INTO Loan VALUES('2000', '662007', 'speedy079', '558', '1085', '8527', 'NJ', '1', '0');
-
 INSERT INTO Loan VALUES('5000', '662007', 'crazymacguy', '633', '1303', '53927', 'WI', '1', '0');
 
 INSERT INTO Loan VALUES('8000', '662007', 'TheresaF', '481', '1221', '44127', 'OH', '1', '0');
 
-INSERT INTO Loan VALUES('5000', '662007', 'Butterfly', '528', '184', '23627', 'VA', '2', '0');
+INSERT INTO Loan VALUES('6000', '672007', 'tjudith', '679', '2607', '23227', 'VA', '1', '0');
 
 INSERT INTO Loan VALUES('5000', '682007', '1OTH-MOUNTAIN-MAN', '494', '586', '13627', 'NY', '1', '0');
 
-INSERT INTO Loan VALUES('6000', '672007', 'tjudith', '679', '2607', '23227', 'VA', '1', '0');
+INSERT INTO Loan VALUES('9500', '682007', 'moneywise', '582', '147', '99827', 'AK', '1', '0');
 
 INSERT INTO Loan VALUES('3500', '682007', 'tmsworld', '583', '312', '10027', 'NY', '1', '0');
-
-INSERT INTO Loan VALUES('9500', '682007', 'moneywise', '582', '147', '99827', 'AK', '1', '0');
 
 INSERT INTO Loan VALUES('1500', '682007', 'Sapphieangel008', '468', '398', '45227', 'OH', '1', '0');
 
