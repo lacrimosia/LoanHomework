@@ -1,46 +1,30 @@
 const oracledb = require("oracledb");
-const config = require("./dbconfig");
+const dbconfig = require("../dbconfig.js");
+const fs = require('fs'); 
+const csv = require('csv-parser');
 
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
-const db = config.connectString;
-const userName = config.user;
-const pass = config.password;
+const dataFile = "../Loan.csv";
+fs.createReadStream(dataFile);
 
-function run() {
-
-  let connection;
-
-  try {
-    connection = oracledb.getConnection({
-      user          : userName,
-      password      : pass,
-      connectString : db
-    });
-
-    // const result = await connection.execute(
-    //   `SELECT manager_id, department_id, department_name
-    //    FROM departments
-    //    WHERE manager_id = :id`,
-    //   [103],  // bind value for :id
-    // );
-    // console.log(result.rows);
-
-  } catch (err) {
-    console.error("Regular error: "+err);
-  } finally {
-    if (connection) {
-      try {
-        connection.close();
-      } catch (err) {
-        console.error("Connection Error: "+err);
-      }
+async function connectToDB() {
+    let connection;
+    try {
+        connection = await oracledb.getConnection(dbconfig);
+        console.log("connected.");
+        let result = connection.execute(`SELECT * FROM LOAN;`);
+        console.log(result.rows);
+    } catch (err) {
+        console.log("Not connected: " + err);
+    } finally {
+        if (connection) {
+            try {
+                connection.close();
+            } catch (err) {
+                console.error("Connection Error: " + err);
+            }
+        }
     }
   }
-}
-
-run();
-
-
-
-
+//connectToDB();

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lacrimosia/LoanHomework#readme",
   "devDependencies": {
+    "csv-parser": "^2.3.0",
     "oracledb": "^4.0.1"
   }
 }
